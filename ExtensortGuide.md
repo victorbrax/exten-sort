@@ -22,7 +22,7 @@ This script was tested on Windows, if you're using other OS some adjustments on 
 If you have any question or problem feel free to open an issue or contact me.
 
 ### Idea
-you can place the ExtenSort code to be executed automatically every time you start your computer? By placing the code in the "Startup" folder on Windows, it will run every time you log in. To do this, you can follow these steps:
+You can place the ExtenSort code to be executed automatically every time you start your computer? By placing the code in the "Startup" folder on Windows, it will run every time you log in. To do this, you can follow these steps:
 
 1.  Create an executable of the ExtenSort code using Pyinstaller
 2.  Open the Run dialog box by pressing the Windows key + R
