@@ -1,9 +1,7 @@
 ## ExtenSort
-
 An application that automatically organizes and sorts files in the downloads folder by extension.
 
 ### Usage
-
 1.  Make sure you have python installed in your computer.
    
 2.  Download or clone the code to your computer.
@@ -19,14 +17,22 @@ An application that automatically organizes and sorts files in the downloads fol
 7.  Done! your downloads folder should be organized now.
 
 ### Note
-
 This script was tested on Windows, if you're using other OS some adjustments on the path to the downloads folder may be required. Also, it's important to notice that some systems may require additional libraries to be installed.
 
 If you have any question or problem feel free to open an issue or contact me.
 
-### Disclaimer
+### Idea
+you can place the ExtenSort code to be executed automatically every time you start your computer? By placing the code in the "Startup" folder on Windows, it will run every time you log in. To do this, you can follow these steps:
 
-Use the script at your own risk. It is important to test it on a small folder before running it on the entire downloads folder to make sure it works correctly and to avoid any data loss.
+1.  Create an executable of the ExtenSort code using Pyinstaller
+2.  Open the Run dialog box by pressing the Windows key + R
+3.  Type shell:startup and press Enter
+4.  This will open the Startup folder in File Explorer
+5.  Place the executable of the ExtenSort code here.
+
+The path of the Startup folder is typically "C:\Users\YourUsername\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+By adding the ExtenSort code to the Startup folder, you can ensure that your downloads are always organized and sorted by extension, without having to manually run the code every time. With this setup, the code will run automatically every time you turn on your computer, giving you the peace of mind that your downloads are always organized.
 
 ### Step-by-step explanation
 
@@ -61,6 +67,9 @@ Checks if the folder with the current file's extension already exists. If it doe
 `move(os.path.join(path, file), os.path.join(extension_path, file))`
 
 Moves the current file to the folder with its corresponding extension. The "move" method from the "shutil" library is used to move the file from one place to.
+
+### Disclaimer
+Use the script at your own risk. It is important to test it on a small folder before running it on the entire downloads folder to make sure it works correctly and to avoid any data loss.
 
 > Thank you for the prestige.
 
