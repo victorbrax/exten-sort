@@ -70,10 +70,3 @@ This application helps me keep my downloads folder organized on a daily basis, a
 The code in this project is licensed under the MIT License. See [LICENSE](LICENSE) for details.</br>
 
 > Thank you for the prestige. 🐍
-Moves the current file to the folder with its corresponding extension. The "move" method from the "shutil" library is used to move the file from one place to.
-
-### Disclaimer
-Use the script at your own risk. It is important to test it on a small folder before running it on the entire downloads folder to make sure it works correctly and to avoid any data loss.
-
-> Thank you for the prestige.
-
