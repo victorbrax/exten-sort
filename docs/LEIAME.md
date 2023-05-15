@@ -50,7 +50,7 @@ Garanta que você tenha o [Python](https://python.org/downloads) instalado para 
 * Crie um ambiente virtual. Você pode fazer isso usando `python -m venv venv` no terminal.
 * Instale as bibliotecas necessárias. Se você usa o pip para gerenciar seus pacotes, use `pip install -r requirements.txt` (caso queira criar o instalador posteriormente).
 * Execute `auto-py-to-exe` no terminal, escolha "One File", use o ícone na [pasta icons](docs/icons) e gere seu arquivo executável.
-* Execute `python main.py`
+* Execute `python main.pyw`
 * Verifique sua pasta de `Downloads`.
 
 ## Tecnologias que foram usadas 🖥️
