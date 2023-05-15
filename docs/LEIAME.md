@@ -59,10 +59,8 @@ Garanta que você tenha o [Python](https://python.org/downloads) instalado para 
 * [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe)
 
 ## Considerações 📝
-Este projeto verifica a extensão de cada arquivo em sua pasta de Downloads. Em seguida, ele cria uma pasta (se ainda não existir) e move o arquivo para ela, tornando tudo mais organizado.
-
-Este aplicativo me ajuda a manter minha pasta de downloads organizada diariamente, e espero que também te ajude. Você pode alterar o diretório de destino para outro, se necessário.
-
+* Este projeto verifica a extensão de cada arquivo em sua pasta de Downloads. Em seguida, ele cria uma pasta (se ainda não existir) e move o arquivo para ela, tornando tudo mais organizado.
+* Este aplicativo me ajuda a manter minha pasta de downloads organizada diariamente, e espero que também te ajude. Você pode alterar o diretório de destino para outro, se necessário.
 * Existem outros projetos semelhantes na internet, mas decidi criar o meu próprio porque queria um código mais conciso e eficiente, especialmente para lidar com extensões de arquivo menos conhecidas.
 
 ## Licença 📜
