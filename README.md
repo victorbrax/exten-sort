@@ -59,10 +59,8 @@ Assumes local installation of [Python](https://python.org/downloads) to run the 
 * [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe)
 
 ## Considerations 📝
-This project scans your Downloads folder and checks the extension of each file. After that, it creates a folder (if it doesn't already exist) and moves the file into it, making everything more organized. 
-
-This application helps me keep my downloads folder organized on a daily basis, and I hope it helps you too. You can change the target directory to another one if needed.
-
+* This project scans your Downloads folder and checks the extension of each file. After that, it creates a folder (if it doesn't already exist) and moves the file into it, making everything more organized. 
+* This application helps me keep my downloads folder organized on a daily basis, and I hope it helps you too. You can change the target directory to another one if needed.
 * There are other similar projects on the internet, but I decided to create my own because I wanted a more concise and efficient code, especially for handling less commonly known file extensions.
 
 ## License 📜
