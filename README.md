@@ -50,7 +50,7 @@ Assumes local installation of [Python](https://python.org/downloads) to run the 
 * Create a virtual environment. You can do this by using `python -m venv venv` in the terminal.
 * Install the necessary libraries. If you use pip to manage your packages, use `pip install -r requirements.txt` (in case you want to create the installer later).
 * Run `auto-py-to-exe` in the terminal, choose "One File", use the icon in [icons folder](docs/icons), and generate your executable file.
-* Run `python main.py`
+* Run `python main.pyw`
 * Check your `Downloads folder`.
 
 ## Technologies Used 🖥️
